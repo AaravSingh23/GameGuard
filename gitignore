@@ -1,0 +1,29 @@
+# ──────────────────────────────────────────
+#  GameGuard – .gitignore
+# ──────────────────────────────────────────
+
+# Python bytecode – created automatically when you run gameguard.py
+__pycache__/
+*.py[cod]
+*.pyo
+
+# PyInstaller output – created when you run: pyinstaller --onefile gameguard.py
+dist/
+build/
+*.spec
+
+# Virtual environment – not needed for this project, but ignored just in case
+venv/
+.venv/
+env/
+
+# OS clutter
+.DS_Store        # macOS Finder metadata
+Thumbs.db        # Windows thumbnail cache
+desktop.ini      # Windows folder settings
+
+# Editor/IDE folders
+.vscode/
+.idea/
+*.swp
+*.swo
