@@ -1,0 +1,18 @@
+# GameGuard – Console Anti-Cheat File Scanner
+# ─────────────────────────────────────────────
+# No third-party packages are required.
+# GameGuard uses only Python standard-library modules:
+#
+#   os        – directory walking and path operations
+#   sys       – platform detection and exit codes
+#   re        – token extraction and camelCase splitting
+#   hashlib   – SHA-256 file hashing
+#   pathlib   – cross-platform Path objects
+#   datetime  – scan duration measurement
+#
+# Python 3.7 or newer is required.
+#
+# ─────────────────────────────────────────────
+# OPTIONAL – only needed to build a Windows .exe
+# ─────────────────────────────────────────────
+# pyinstaller>=5.0
